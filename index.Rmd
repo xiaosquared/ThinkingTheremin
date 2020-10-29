@@ -14,7 +14,20 @@ description: "Documenting my progress learning to play the theremin"
 
 # Preface
 
+Notes from learning to play the theremin.
+Started 3 years ago as an experiment in learning in undercharted territory.
+Apply principles of learning to see how much I can figure out. Kept a notebook of stuff I experimented with.
 
+Tooks for scientific research R notebooks, Github as version control (Taun and her graphic novel). Try putting stuff online in an organized and sharable way. Open source learning!! :-D
+
+Shoutouts to mentors, influences, inspirations.
+
+Approach... step by step, iterative, progressive
+This is a work in progress. I'm not a professional. I'm just trying to figure things out.
+Stuff that's super in progress and speculative will be labeled as such.
+
+A little about my background. Nerd out about parallels between language learning and music <3
+also with coding/debugging
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

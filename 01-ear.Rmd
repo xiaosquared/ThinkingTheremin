@@ -1,0 +1,68 @@
+# Ear Training {#ear}
+
+(super in-progress)
+
+Stage 1 - have a solid auditory image of every interval.
+Being able to instantly recognize them in a piece of music, also knowing how to produce them.
+Good way to test - sing! Goal is to be able to start on any note and be able to instantly sing any interval up or down.
+
+How do we get there? One well-known technique is to make a list of songs that start with each interval. Below is my list. Going up is not the same audio image as going down, so it's important to find a song for the ascending and a song for the descending version of each interval. There are [free tools](https://www.earmaster.com/products/free-tools/interval-song-chart-generator.html) to help you find songs in your preferred genre. Listen to the songs on repeat, sing along. Doesn't matter if you're not a good singer. Try startingg in different keys.
+
+Some intervals are easier than others. Spend more time on the ones that are difficult for you. Good to make a chart keeping track of where you are for each interval. Try to randomly quiz yourself during the day by trying to sing an interval. Do it when walking around, when during chores.
+
+```{r intervals-tab, tidy=FALSE, message=FALSE, echo=FALSE}
+# some urls
+names <- c("Minor 2nd", "Major 2nd", 
+           "Minor 3rd", "Major 3rd",
+           "Perfect 4th", "Tritone", "Perfect 5th",
+           "Minor 6th", "Major 6th",
+           "Minor 7th", "Major 7th",
+           "Octave")
+up.songs <- c("Jaws theme", "Une Souris Verte", #2nds
+              "Greensleeves", "Beethoven Symphoony No. 3", #3rds
+              "Wagner's Wedding March", "Maria (West Side Story)", "Twinkle Twinkle", #4th/5th
+              "Manhã de Carnaval", "Chopin Nocturne Op. 9 No. 2", #6ths
+              "Somewhere (West Side Story)", "Take on Me", #7ths
+              "Over the Rainbow") 
+up.urls <- c("https://youtu.be/A9QTSyLwd4w?t=25", "https://www.youtube.com/watch?v=2rt2g_afiAg", #2nds
+          "https://www.youtube.com/watch?v=wARiOb80Zr0", "https://youtu.be/nbGV-MVfgec?t=5", #3rds
+          "https://youtu.be/lgh9XTkQTDI?t=7", "https://youtu.be/DyofWTw0bqY?t=31", "https://www.youtube.com/watch?v=9bK9h12Qdvs", #4th/5ths
+          "https://www.youtube.com/watch?v=vEdVkWDFJYQ", "https://www.youtube.com/watch?v=9E6b3swbnWg", #6ths
+          "https://youtu.be/aPgqeVROE_4?t=42", "https://www.youtube.com/watch?v=djV11Xbc914#t=53s", #7ths
+          "https://www.youtube.com/watch?v=PSZxmZmBfnU")
+down.songs <- c("La Vie En Rose", "Freddie Freeloader", #2nds
+              "Beethoven Symphony No. 5", "The Star Spangled Banner", #3rds
+              "Bach Prelude in F# minor (WTC II)", "Danse Macabre", "Minuet in G", #4th/5th
+              "Love Story Theme", "Nobody Knows the Trouble I've Seen", #6ths
+              "An American in Paris", "I Love You (Cole Porter)", #7ths
+              "Willow Weep For Me") 
+down.urls <- c("https://www.youtube.com/watch?v=kFzViYkZAz4", "https://www.youtube.com/watch?v=RPfFhfSuUZ4#t=0s", #2nds
+          "https://www.youtube.com/watch?v=fOk8Tm815lE", "https://youtu.be/N_lCmBvYMRs?t=77", #3rds
+          "https://www.youtube.com/watch?v=1lvTBkXf468","https://youtu.be/QVpUIq4bxxA?t=17", "https://www.youtube.com/watch?v=on1DDSLdDOo", #4th/5ths
+          "https://youtu.be/Y4cmPh2peBY?t=24", "https://www.youtube.com/watch?v=AL3lPVA8QKQ#t=29s", #6ths
+          "https://www.youtube.com/watch?v=MWzlivSzpJM#t=0s", "https://youtu.be/qnHr6ssXgZM?t=11", #7ths
+          "https://youtu.be/FsytVTV18rA?t=13")
+
+up.links <- paste0("[", up.songs, "](", up.urls, ")")
+down.links <- paste0("[", down.songs, "](", down.urls, ")")
+
+intervals <- data.frame(names, up.links, down.links)
+
+knitr::kable(
+  head(intervals, 20), 
+  col.names=c("Intervals", "Ascending Examples", "Descending Examples"),
+  booktabs = TRUE
+)
+
+```
+
+Stage 2: 
+Intervals occur in different contexts, and the context changes the way that they sound.
+For example... major 3rd and then minor 3rd, vs minor 3rd and then major 3rd. Different harmonies!
+Each song in the list has a harmonic context in which the featured interval appear. 
+
+Once you have each individual interval solidly in your mind, try combining. Take an interval, and try to sing it after singing some other interval. To sing the second interval, you kind of need to reorient yourself, which takes too long. Much better to encode the sequence as a unit. Recognize the harmony. Can find songs for each. Maybe it's tricky to find songs that start with a super specific pattern. I think of segments in songs. Make some charts of examples!!
+
+
+
+
